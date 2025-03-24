@@ -33,3 +33,10 @@ u1 >> bass(0, amp=2)
 u3 >> pluck([0, 2, 4], amp=12, dur=PDur(3, 4))
 
 u4 >> karp(0, amp=5, vib=0, slide=1, dur=1/4)
+
+p9 >> spark(
+    [-2, 1, 2, 3, 3, 4, 2, 2, 3, 1],
+    dur=P[1, 1, 1, 2, 1, 1, 2, 1, 1, 5] / 2,
+    amp=2
+)
+q9 >> play(" *", sample=1)
